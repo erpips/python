@@ -34,8 +34,8 @@ except ImportError:
 SCOPES = 'https://www.googleapis.com/auth/gmail.modify'
 #CLIENT_SECRET_FILE = 'client_secret.json'
 
-accounts = ['xxxx13.json',
-            'xxxx23.json']
+accounts = ['xxxx14.json',
+            'xxxx24.json']
 
 FROM_ADDRESS     = 'yyyy@zzzzz.com'
 APPLICATION_NAME = 'Gmail API Quickstart'
