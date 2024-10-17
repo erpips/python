@@ -32,7 +32,7 @@ except ImportError:
 #--------------------------------------------------------------------------
 #SCOPES = 'https://www.googleapis.com/auth/gmail.readonly'
 SCOPES = 'https://www.googleapis.com/auth/gmail.modify'
-#CLIENT_SECRET_FILE = 'client_secret.json'
+#CLIENT_SECRET_FILE2 = 'client_secret.json'
 
 accounts = ['xxxx1.json',
             'xxxx2.json']
