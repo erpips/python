@@ -13,4 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: My first step - check out repository
-        run:  echo "::debug::Hello World"
+        run:  |
+          echo "::debug::Hello World"
+          echo "MYSECRET: {{secrets.MYSECRET}}"
