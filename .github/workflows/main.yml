@@ -17,5 +17,5 @@ jobs:
         run:  |
           echo "::debug::Hello World"
           echo "MYSECRET: ${{secrets.MYSECRET}}"
-          echo "env my scret : ${{env.MYSCRET}}"
+          echo "env my scret : ${{env.MYSECRET}}"
            echo "env my var : ${{vars.MYVAR}}"
