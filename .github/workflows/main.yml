@@ -3,7 +3,8 @@ name: Deployment Workflow ERO
 on:
   push:
     branches:
-      - mybranch
+      - master
+      - develop
   workflow_dispatch:
 
 
@@ -11,7 +12,7 @@ jobs:
   my_first_job:
     name: My first job
     runs-on: ubuntu-latest
-    environment: test2
+    environment: ${{ github.ref_name }}
     steps:
       - name: My first step - check out repository
         run:  |
