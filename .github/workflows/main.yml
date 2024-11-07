@@ -1,0 +1,16 @@
+name: Deployment Workflow ERO
+
+on:
+  push:
+    branches:
+      - mybranch
+  workflow_dispatch:
+
+
+jobs:
+  my_first_job:
+    name: My first job
+    runs-on: ubuntu-latest
+    steps:
+      - name: My first step - check out repository
+        run:  echo "::debug::Hello World"
